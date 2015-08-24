@@ -1,0 +1,4 @@
+[submodule "TwitterTicker"]
+	path = TwitterTicker
+	url = https://github.com/Shreyyas/TwitterTicker.git
+	branch = FinalVis
