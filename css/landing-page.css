@@ -17,9 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    /*font-family: "Signika", sans-serif;*/
-    font-family: "Oxygen", sans-serif;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .lead {
@@ -174,6 +172,26 @@ p.copyright {
     right: 10px;
     cursor: pointer;
     display: none;
+}
+.captionBackground {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+.readMoreButton {
+    margin-top: 130px;
+    padding-top: 10px;
+    overflow: auto;
+}
+
+.formationButton {
+    margin-top: 250px;
+    padding-top: 10px;
+    overflow: auto;
 }
 
 /*
