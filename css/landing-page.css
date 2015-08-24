@@ -183,11 +183,16 @@ p.copyright {
 }
 
 .readMoreButton {
-    margin-top: 130px;
+    margin-top: 150px;
     padding-top: 10px;
     overflow: auto;
 }
 
+.goToButton {
+    margin-top: 292px;
+    padding-top: 10px;
+    overflow: auto;
+}
 .formationButton {
     margin-top: 250px;
     padding-top: 10px;
@@ -209,7 +214,8 @@ p.copyright {
 #thumbnail-preview-indicators .slides .slide-2,
 #thumbnail-preview-indicators .slides .slide-3,
 #thumbnail-preview-indicators .slides .slide-4,
-#thumbnail-preview-indicators .slides .slide-5
+#thumbnail-preview-indicators .slides .slide-5,
+#thumbnail-preview-indicators .slides .slide-6
  {
   background-size: cover;
   background-position: center center;
@@ -221,22 +227,27 @@ p.copyright {
     #thumbnail-preview-indicators .slides .slide-2,
     #thumbnail-preview-indicators .slides .slide-3, 
     #thumbnail-preview-indicators .slides .slide-4,
-    #thumbnail-preview-indicators .slides .slide-5 {
+    #thumbnail-preview-indicators .slides .slide-5,
+    #thumbnail-preview-indicators .slides .slide-6 {
       height: 535px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background-image: url(../img/rpi_4cluster.JPG); 
+  background-position: top;
+  background-image: url(../img/twitter_ticker.jpg); 
 }
 #thumbnail-preview-indicators .slides .slide-2 {
-  background-image: url(https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg);
+  background-image: url(../img/rpi_4cluster.JPG); 
 }
 #thumbnail-preview-indicators .slides .slide-3 {
-  background-image: url(../img/product-adoption.jpg);
+  background-image: url(https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg);
 }
 #thumbnail-preview-indicators .slides .slide-4 {
-  background-image: url(../img/traffic-simulation.jpg);
+  background-image: url(../img/product-adoption.jpg);
 }
 #thumbnail-preview-indicators .slides .slide-5 {
+  background-image: url(../img/traffic-simulation.jpg);
+}
+#thumbnail-preview-indicators .slides .slide-6 {
   background-image: url(../img/formation-logo.png);
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
