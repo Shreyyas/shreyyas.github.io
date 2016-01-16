@@ -2,3 +2,6 @@
 	path = TwitterTicker
 	url = https://github.com/Shreyyas/TwitterTicker.git
 	branch = FinalVis
+[submodule "Genius"]
+	path = Genius
+	url = https://github.com/Shreyyas/Genius.git
